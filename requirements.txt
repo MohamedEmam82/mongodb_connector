@@ -1,0 +1,19 @@
+pymongo
+pymongo[srv]
+# mongodb+srv is the newer and recommended way to connect to a MongoDB cluster. 
+# It is easier to use, more reliable, and more secure than mongodb.
+dnspython
+# dnspython module provides dns.resolver() helps to find out various records of a domain name. 
+# The function takes two important parameters, the domain name, and the record type.
+# https://www.geeksforgeeks.org/network-programming-in-python-dns-look-up/
+pandas
+numpy
+ensure
+# ensure is a set of simple assertion helpers that let you write more expressive, literate, concise, 
+# and readable Pythonic code for validating conditions.
+pytest
+# Pytest is a Python testing framework that can be used to write various types of software tests, 
+# including unit tests, integration tests, end-to-end tests, and functional tests. 
+
+-e .
+# to find local packages
